@@ -18,11 +18,17 @@ Calculates the correlation matrix to show relationships between these variables.
 
 ### Time Series Analysis:
 
+![Time Series of BTC, Greed and Fear Index, and S&P500](images/BTC_Time_Series.png)
+
 Visualizes the trends of BTC price, Fear and Greed Index, and S&P 500 price over time.
 
 Calculates and plots the 30-day moving averages for BTC and S&P 500 prices.
 
 ### BTC Daily Return Analysis:
+
+![BTC Daily Returns Following a Positive Day](images/BTC_Return_Positive.png)
+
+![BTC Daily Returns Following a Negative Day](images/BTC_Return_Negative.png)
 
 Calculates and describes the descriptive statistics of BTC daily returns.
 
@@ -32,6 +38,8 @@ Analyzes BTC daily returns conditional on the previous day's return (positive an
 
 Analyzes BTC daily returns conditional on the previous two days' returns.
 
+![BTC Daily Returns Following Two Days of Positive or Negative Return](images/BTC_Two_Day_Return.png)
+
 Performs t-tests, Levene's test, and Shapiro-Wilk tests to compare the distributions of BTC daily returns under different conditions.
 
 Fits various distributions (Normal, Student's t, Exponential) to the BTC daily return data and performs Kolmogorov-Smirnov tests.
@@ -40,11 +48,15 @@ Compares the distributions of BTC daily returns following positive and negative 
 
 ### Fear and Greed Index Analysis
 
+![Histograms of BTC Return Depending on Greed and Fear Index](images/BTC_Greed_Index_Histos.png)
+
 Classifies the Fear and Greed Index into categories (Extreme Fear, Fear, Neutral, Greedy, Extreme Greed).
 
 Analyzes the distribution of BTC daily returns for each category and performs Kolmogorov-Smirnov tests.
 
 Compares the distributions of BTC daily returns between different Fear and Greed Index categories using the Kolmogorov-Smirnov test.  The code finds statistically significant differences in BTC returns based on the Fear and Greed Index.
+
+![Scatterplot of BTC Return vs. Greed and Fear Index](images/BTC_Greed_Index_Scatter.png)
 
 ### Relationship with S&P 500:
 
@@ -57,6 +69,8 @@ Calculates the correlation between BTC daily returns and the Fear and Greed Inde
 Visualizes the relationship between BTC daily returns and the Fear and Greed Index using a scatter plot.
 
 ### Linear Regression Modeling:
+
+![Linear Regression Model of BTC Return vs. Greed and Fear Index](images/BTC_Linear_Reg.png)
 
 Builds a simple linear regression model to predict BTC daily returns based on the lagged Fear and Greed Index.
 
