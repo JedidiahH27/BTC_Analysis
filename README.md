@@ -1,7 +1,7 @@
-📈 Bitcoin Price vs. Fear & Greed Index and S&P 500 — A Data Analysis Project
+# 📈 Bitcoin Price vs. Fear & Greed Index and S&P 500 — A Data Analysis Project
 This project explores the relationship between Bitcoin (BTC) price movements, the Fear and Greed Index, and the S&P 500 Index. Through descriptive statistics, time series analysis, return modeling, and linear regression, we uncover how investor sentiment and market trends influence BTC returns.
 
-🔍 Overview
+## 🔍 Overview
 The analysis includes:
 
 Descriptive statistics and correlation analysis
@@ -12,7 +12,7 @@ Daily return analysis of BTC, including distribution fitting and statistical tes
 
 Linear regression models to predict BTC returns using sentiment and market indicators
 
-📊 Key Findings
+## 📊 Key Findings
 1. Descriptive Statistics & Correlation Analysis
 Summary statistics were computed for BTC price, the Fear and Greed Index, and S&P 500 prices.
 
@@ -73,7 +73,7 @@ Used PyTorch to train and evaluate models, with results visualized using 2D and 
 
 Residual analysis provided insights into model fit and assumptions.
 
-🧠 Tools & Libraries Used
+## 🧠 Tools & Libraries Used
 Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy, Statsmodels, Scikit-learn, PyTorch)
 
 Jupyter Notebooks
